@@ -1,0 +1,28 @@
+.pdfViewerContainer {
+    background-color: #E6E8EB;
+    color: #505050;
+    padding: 10px;
+    height: 81vh;
+}
+
+/* .pdfViewerContent {
+    visibility: hidden;
+} */
+
+.pdfViewerHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pdfContent {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 74.5vh;
+    margin-top: 10px;
+}
+
+.noDataIconDiv {
+  display: flex;
+  flex-direction: column;
+}
+

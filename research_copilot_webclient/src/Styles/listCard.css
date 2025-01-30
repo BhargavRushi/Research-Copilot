@@ -1,0 +1,65 @@
+.table-container {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 75vh;
+    background-color: #ffffff;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+.table-container::-webkit-scrollbar {    
+    width: 4px;
+}
+
+.table-container::-webkit-scrollbar-track {    
+    background: #f1f1f1;
+}
+
+.table-container::-webkit-scrollbar-thumb {    
+    background: #888; 
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.table-container table {
+    width: 100%;
+}
+
+.table-container thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #FFFFFF;
+    color: #000000;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table-container  th, td {
+    padding: 12px 8px 12px 8px;
+}
+
+.table-container tbody{
+    background-color: "inherit";
+}
+
+.table-container td, th {
+    text-align: left;
+    color: #000000;
+}
+
+.table-container td {
+    border-bottom: 0.5px solid #bac3cf;
+}
+
+.resultObj {
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.deleteIcon {
+    color: #fe4a4a;
+}

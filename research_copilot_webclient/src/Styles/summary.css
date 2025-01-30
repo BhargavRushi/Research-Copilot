@@ -1,0 +1,24 @@
+.summary-content {
+    height: 75vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+    text-align: justify;
+    color: #646464;
+}
+
+.summary-content::-webkit-scrollbar {    
+    width: 5px;
+}
+
+.summary-content::-webkit-scrollbar-track {    
+    background: #f1f1f1;
+}
+
+.summary-content::-webkit-scrollbar-thumb {    
+    background: #888; 
+}
+
+.summary-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

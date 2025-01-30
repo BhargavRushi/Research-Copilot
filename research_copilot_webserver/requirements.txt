@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+requests
+crewai
+crewai-tools
+pypdf
+pydantic
+google-generativeai
+pathlib
+pytest
+pytest_cov
+pytest-mock
